@@ -22,10 +22,11 @@ export default function RootLayout({
           <div className="flex w-full">
             <Sheet open={open} onOpenChange={setOpen}>
               <SheetContent side="left" className="p-0 w-64">
-                <AppSidebar />
+                <div> 1.New menu stuff </div>
+                <div> 2.New menu stuff</div>
               </SheetContent>
             </Sheet>
-            <aside className="hidden md:block">
+            <aside className="block">
               <AppSidebar />
             </aside>
             <main className="flex-1 mx-2 w-full mt-20">{children}</main>

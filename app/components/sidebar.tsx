@@ -34,7 +34,7 @@ const menuItems = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="flex flex-col justify-between transition-all duration-300 ease-in-out mt-20 w-64">
+    <Sidebar className=" flex flex-col justify-between transition-all duration-300 ease-in-out md:mt-20 w-64">
       <div>
         <SidebarHeader className="p-4">
           <h2 className="text-lg font-semibold transition-opacity opacity-100">
@@ -50,7 +50,7 @@ export function AppSidebar() {
                     <TooltipTrigger asChild>
                       <SidebarMenuButton
                         asChild
-                        className="flex items-center py-2 justify-start px-4"
+                        className="flex items-center py-2 justify-start px-4 "
                       >
                         <Link href={item.href}>
                           <item.icon className="h-5 w-5 mr-2" />
